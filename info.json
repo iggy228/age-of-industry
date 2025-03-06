@@ -1,0 +1,9 @@
+{
+  "name": "age-of-industry",
+  "version": "0.1.0",
+  "title": "Age of Industry",
+  "author": "iggy630",
+  "factorio_version": "2.0",
+  "dependencies": ["base >= 2.0"],
+  "description": "Overhaul mod that add new complex recipes, buildings and resources. Inspired by Industrial Revolution and other overhauls."
+}
