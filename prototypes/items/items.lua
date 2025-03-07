@@ -1,4 +1,5 @@
 data.extend({
+    -- smelting
     {
         type = "item",
         name = "copper-ingot",
@@ -13,7 +14,14 @@ data.extend({
         subgroup = "intermediate-product",
         stack_size = 100,
     },
-    -- crushed ores items
+    {
+        type = "glass",
+        name = "glass",
+        icon = "__age-of-industry__/icons/items/glass.png",
+        subgroup = "intermediate-product",
+        stack_size = 100,
+    },
+    -- crushing
     {
         type = "item",
         name = "crushed-copper-ore",
