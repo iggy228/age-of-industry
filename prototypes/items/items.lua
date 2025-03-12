@@ -15,7 +15,7 @@ data.extend({
         stack_size = 100,
     },
     {
-        type = "glass",
+        type = "item",
         name = "glass",
         icon = "__age-of-industry__/icons/items/glass.png",
         subgroup = "intermediate-product",

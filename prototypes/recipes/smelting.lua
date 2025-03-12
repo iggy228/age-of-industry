@@ -23,6 +23,28 @@ data.extend({
     },
     {
         type = "recipe",
+        name = "crushed-copper-ingot",
+        enabled = true,
+        energy_required = 3,
+        category = "smelting",
+        ingredients = {
+            { type = "item", name = "crushed-copper-ore", amount = 1 }
+        },
+        results = { { type = "item", name = "copper-ingot", amount = 1 } }
+    },
+    {
+        type = "recipe",
+        name = "crushed-iron-ingot",
+        enabled = true,
+        energy_required = 3,
+        category = "smelting",
+        ingredients = {
+            { type = "item", name = "crushed-iron-ore", amount = 1 }
+        },
+        results = { { type = "item", name = "iron-ingot", amount = 1 } }
+    },
+    {
+        type = "recipe",
         name = "glass",
         enabled = false,
         energy_required = 2.5,
