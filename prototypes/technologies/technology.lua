@@ -3,6 +3,7 @@ data.extend({
         type = "technology",
         name = 'crushing',
         icon = '__age-of-industry__/icons/technology/crushing.png',
+        prerequisites = { "automation-science-pack" },
         unit = {
             time = 30,
             count = 10,
@@ -35,6 +36,7 @@ data.extend({
         type = "technology",
         name = 'ore-crushing',
         icon = '__age-of-industry__/icons/technology/crushing.png',
+        prerequisites = { "crushing" },
         unit = {
             time = 60,
             count = 20,

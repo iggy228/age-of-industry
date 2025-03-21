@@ -16,6 +16,15 @@ if ironPlate then
     ironPlate.category = "crafting"
 end
 
+-- steel plate recipe override
+local steelPlate = data.raw["recipe"]["steel-plate"]
+if steelPlate then
+    steelPlate.ingredients = {
+        { type = "item", name = "steel-ingot", amount = 1 },
+    }
+    steelPlate.category = "crafting"
+end
+
 -- electronic circuit recipe override
 local electronicCircuit = data.raw["recipe"]["electronic-circuit"]
 if electronicCircuit then
