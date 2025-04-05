@@ -27,8 +27,9 @@ data.extend({
         icon = "__age-of-industry__/icons/items/coke.jpg",
         subgroup = "intermediate-product",
         stack_size = 50,
-        fuel_value = "5MJ",
+        fuel_value = "3MJ",
         fuel_category = "chemical",
+        fuel_emissions_multiplier = 0.5
     },
     -- crushing
     {

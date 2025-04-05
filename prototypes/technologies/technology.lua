@@ -51,4 +51,21 @@ data.extend({
             { type = "change-recipe-productivity", recipe = "crushed-copper-ingot", change = 0.5 },
         }
     },
+    {
+        type = "technology",
+        name = 'alloy-smelting',
+        icon = '__age-of-industry__/icons/technology/alloy_furnace.png',
+        prerequisites = { "logistic-science-pack" },
+        unit = {
+            time = 60,
+            count = 30,
+            ingredients = {
+                { "automation-science-pack", 1 },
+                { "logictic-science-pack",   1 },
+            }
+        },
+        effects = {
+            { type = "unlock-recipe", recipe = "alloy-furnace", change = 0.5 },
+        }
+    },
 })

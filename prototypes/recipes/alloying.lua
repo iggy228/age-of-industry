@@ -6,8 +6,8 @@ data.extend({
         energy_required = 3.2,
         category = "alloying",
         ingredients = {
-            { type = "item", name = "iron-ingot", amount = 4 },
-            { type = "item", name = "coke",       amount = 2 }
+            { type = "item", name = "iron-ingot", amount = 2 },
+            { type = "item", name = "coke",       amount = 1 }
         },
         results = { { type = "item", name = "steel-ingot", amount = 2 } }
     },
