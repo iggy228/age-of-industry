@@ -34,7 +34,9 @@ local steelResearch = data.raw['technology']['steel-processing']
 if steelResearch then
     steelResearch.effects = {
         table.unpack(steelResearch.effects),
-        { type = 'unlock-recipe', recipe = 'coke' }
+        { type = 'unlock-recipe', recipe = 'coke' },
+        { type = 'unlock-recipe', recipe = 'steel-ingot' },
+        { type = 'unlock-recipe', recipe = 'steel-stick' },
     }
     steelResearch.prerequisites = { 'alloy-smelting' }
     steelResearch.unit = {

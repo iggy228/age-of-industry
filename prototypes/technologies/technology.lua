@@ -61,11 +61,11 @@ data.extend({
             count = 30,
             ingredients = {
                 { "automation-science-pack", 1 },
-                { "logictic-science-pack",   1 },
+                { "logistic-science-pack",   1 },
             }
         },
         effects = {
-            { type = "unlock-recipe", recipe = "alloy-furnace", change = 0.5 },
+            { type = "unlock-recipe", recipe = "alloy-furnace" },
         }
     },
 })

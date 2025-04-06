@@ -2,7 +2,7 @@ data:extend({
     {
         type = "item",
         name = "alloy-furnace",
-        icon = "___age-of-industry__/icons/entities/alloy-furnace.png",
+        icon = "__age-of-industry__/icons/entities/alloy_furnace.png",
         place_result = "alloy-furnace",
         stack_size = 20,
     },
@@ -22,7 +22,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "alloy-furnace",
-        icon = "__age-of-industry__/icons/entities/alloy-furnace.png",
+        icon = "__age-of-industry__/icons/entities/alloy_furnace.png",
         flags = { "placeable-neutral", "placeable-player", "player-creation" },
         minable = { hardness = 1, mining_time = 1.5, result = "alloy-furnace" },
         max_health = 500,
@@ -48,7 +48,7 @@ data:extend({
             animation = {
                 layers = {
                     {
-                        filename = '__age-of-industry__/icons/entities/alloy-furnace.png',
+                        filename = '__age-of-industry__/animations/alloy-furnace.png',
                         priority = 'high',
                         width = 128,
                         height = 128,

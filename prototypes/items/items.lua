@@ -57,7 +57,7 @@ data.extend({
     {
         type = "item",
         name = "steel-ingot",
-        icon = "__age-of-industry__/icons/items/glass.png",
+        icon = "__age-of-industry__/icons/items/steel-ingot.png",
         subgroup = "intermediate-product",
         stack_size = 100,
     },
@@ -65,7 +65,7 @@ data.extend({
     {
         type = "item",
         name = "steel-stick",
-        icon = "__age-of-industry__/icons/items/glass.png",
+        icon = "__age-of-industry__/icons/items/steel-stick.png",
         subgroup = "intermediate-product",
         stack_size = 200,
     }
